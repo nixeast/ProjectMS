@@ -201,11 +201,12 @@ void UInterMissionUI::BindWidget_InterMission()
 		FString Temp = FString(TEXT("btn_QuestBoard_")) + FString::FromInt(i);
 		
 		btn_QuestBoard[i] = Cast<UButton>(GetWidgetFromName(FName(*Temp)));
-		btn_QuestBoard[i]->SetDisplayLabel(FString::FromInt(i));
+		FString TempString = FString::FromInt(i);
+		//btn_QuestBoard[i]->SetDisplayLabel(TempString);
 
 		if (btn_QuestBoard[i] != nullptr)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Bind %s succeed.."), *btn_QuestBoard[i]->GetLabelText().ToString());
+			//UE_LOG(LogTemp, Warning, TEXT("Bind %s succeed.."), *btn_QuestBoard[i]->GetLabelText().ToString());
 		}
 		else
 		{
