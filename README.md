@@ -34,3 +34,8 @@
 - 대상이 Enemy일 경우 일정량의 데미지를 전달합니다.
 - [코드 보러가기](https://github.com/nixeast/ProjectMS/blob/2cfd98d404b5902d36c088eb7d6d1ef14b1e663d/Source/ProjectMS/ProjectMSCharacter.cpp#L228)
 
+3. 아이템 획득
+4. 아이템 사용
+5. Enemy 추격
+6. Enemy 공격
+7. 상호작용 오브젝트 작동
